@@ -1,2 +1,10 @@
 # Inventario-Riwi
 Historia de usuario: Creacion de un inventario utilizando los conocimientos adquiridos hasta el momento
+
+Este proyecto consiste en un programa básico desarrollado en Python que permite registrar información sencilla sobre un producto dentro de un inventario. El objetivo principal del programa es solicitar al usuario algunos datos importantes, como el nombre del producto, su precio y la cantidad disponible en stock, para posteriormente calcular el costo total del inventario de ese producto. Este tipo de ejercicio es muy útil para quienes están comenzando a aprender programación, ya que permite practicar conceptos fundamentales como la entrada de datos, el uso de variables, validación de información, ciclos repetitivos y manejo de errores.
+
+Para ejecutar el programa se necesita tener instalado Python y utilizar un editor de código Visual Studio Code. Primero se debe abrir el VS code, crear un archivo nuevo dentro de una carpeta almacenada en el dispositivo y guardarlo con la extensión .py, por ejemplo inventario.py. Luego se copia el código dentro del archivo y se ejecuta desde la terminal apoyandonos de una extension de debugger que se instala facilmente desde el propio VScode.
+
+Cuando el programa inicia, muestra un mensaje de bienvenida y pide al usuario ingresar el nombre del producto. Después solicita el precio, verificando que el valor ingresado sea un número y que no sea negativo. Si el usuario introduce un valor incorrecto, el programa muestra un mensaje de error y vuelve a pedir el dato hasta que sea válido. Posteriormente se solicita la cantidad disponible en stock, aplicando la misma validación para evitar valores negativos o datos incorrectos.
+
+Una vez ingresada la información correctamente, el programa calcula el costo total del inventario y muestra un resumen con el nombre del producto, el precio, la cantidad y el valor total. Este programa es un ejemplo sencillo que ayuda a entender cómo funcionan las validaciones, los ciclos y el manejo de errores en Python, además de mostrar cómo se puede crear una pequeña herramienta para organizar información de manera práctica.
